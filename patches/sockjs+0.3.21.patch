@@ -1,0 +1,26 @@
+diff --git a/node_modules/sockjs/lib/trans-eventsource.js b/node_modules/sockjs/lib/trans-eventsource.js
+index 8015be9..83d4588 100644
+--- a/node_modules/sockjs/lib/trans-eventsource.js
++++ b/node_modules/sockjs/lib/trans-eventsource.js
+@@ -34,7 +34,7 @@
+         origin = '*';
+       } else {
+         origin = req.headers['origin'];
+-        res.setHeader('Access-Control-Allow-Credentials', 'true');
++        res.setHeader('Access-Control-Allow-Credentials', 'false');
+       }
+       res.setHeader('Content-Type', 'text/event-stream');
+       res.setHeader('Access-Control-Allow-Origin', origin);
+diff --git a/node_modules/sockjs/lib/trans-xhr.js b/node_modules/sockjs/lib/trans-xhr.js
+index 3825095..b8074dc 100644
+--- a/node_modules/sockjs/lib/trans-xhr.js
++++ b/node_modules/sockjs/lib/trans-xhr.js
+@@ -94,7 +94,7 @@
+         origin = '*';
+       } else {
+         origin = req.headers['origin'];
+-        res.setHeader('Access-Control-Allow-Credentials', 'true');
++        res.setHeader('Access-Control-Allow-Credentials', 'false');
+       }
+       res.setHeader('Access-Control-Allow-Origin', origin);
+       res.setHeader('Vary', 'Origin');
