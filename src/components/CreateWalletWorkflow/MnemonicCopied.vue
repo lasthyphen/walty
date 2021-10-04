@@ -5,12 +5,18 @@
 </template>
 <script>
 export default {
-    props: {
+    _props: {
         value: Boolean,
         explain: {
             type: String,
             default: 'Back up your mnemonic keyphrase!',
         },
+    },
+    get props() {
+        return this._props
+    },
+    set props(value) {
+        this._props = value
     },
     model: {
         prop: 'value',

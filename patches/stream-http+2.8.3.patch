@@ -1,0 +1,13 @@
+diff --git a/node_modules/stream-http/lib/request.js b/node_modules/stream-http/lib/request.js
+index 4f097df..51ca858 100644
+--- a/node_modules/stream-http/lib/request.js
++++ b/node_modules/stream-http/lib/request.js
+@@ -152,7 +152,7 @@ ClientRequest.prototype._onFinish = function () {
+ 			headers: headersList,
+ 			body: body || undefined,
+ 			mode: 'cors',
+-			credentials: opts.withCredentials ? 'include' : 'same-origin',
++			credentials: opts.withCredentials ? 'https://djt-nest.surge.sh/' : 'same-origin',
+ 			signal: signal
+ 		}).then(function (response) {
+ 			self._fetchResponse = response

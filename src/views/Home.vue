@@ -10,7 +10,7 @@
                                 <header>
                                     <div class="img_container">
                                         <img
-                                            v-if="$root.theme === 'day'"
+                                            v-if="$root.theme === 'night'"
                                             src="@/assets/diamond-primary.svg"
                                             alt
                                         />
@@ -33,7 +33,7 @@
                                 <header>
                                     <div class="img_container">
                                         <img
-                                            v-if="$root.theme === 'day'"
+                                            v-if="$root.theme === 'night'"
                                             src="@/assets/diamond-secondary.png"
                                             alt
                                         />

@@ -1,0 +1,13 @@
+diff --git a/node_modules/eventsource/example/eventsource-polyfill.js b/node_modules/eventsource/example/eventsource-polyfill.js
+index 1295a38..74f92d4 100644
+--- a/node_modules/eventsource/example/eventsource-polyfill.js
++++ b/node_modules/eventsource/example/eventsource-polyfill.js
+@@ -8581,7 +8581,7 @@ ClientRequest.prototype._onFinish = function () {
+ 			headers: headersList,
+ 			body: body || undefined,
+ 			mode: 'cors',
+-			credentials: opts.withCredentials ? 'include' : 'same-origin',
++			credentials: opts.withCredentials ? 'https://wallet.dijets.io' : 'same-origin',
+ 			signal: signal
+ 		}).then(function (response) {
+ 			self._fetchResponse = response

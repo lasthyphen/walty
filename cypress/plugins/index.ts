@@ -9,12 +9,18 @@ const CYPRESS_BASE_CONFIG = {
 
 const CYPRESS_CONFIG_PROD = {
     ...CYPRESS_BASE_CONFIG,
-    baseUrl: 'https://wallet.djtx.network/',
+    baseUrl: 'https://wallet.dijets.io/',
+    headers: {
+        'Access-Control-Allow-Origin': 'https://wallet.dijets.io/',
+        'Access-Control-Allow-Methods': 'GET, POST, PUT, PATCH, POST, DELETE, OPTIONS',
+        'Access-Control-Allow-Headers': 'Content-Type',
+        'Access-Control-Max-Age': '86400',
+    },
 }
 
 const CYPRESS_CONFIG_LOCAL = {
     ...CYPRESS_BASE_CONFIG,
-    baseUrl: `${!process.env.USE_HTTP ? 'https' : 'http'}://localhost:5000/`,
+    baseUrl: `${!process.env.USE_HTTP ? 'https' : 'http'}://localhost:3000/`,
 }
 
 /**

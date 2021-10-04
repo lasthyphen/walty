@@ -21,7 +21,7 @@ function getAssetIcon(id: string) {
 
     if (!AVA) return url
     if (id === AVA.id) {
-        return '/ava_letter_icon.png'
+        return '/djt_letter_icon.png'
     }
     return url
 }

@@ -96,7 +96,7 @@ class AvaNetwork {
         } else {
             this.ip = split[1]
             if (this.protocol === 'http') {
-                this.port = 443
+                this.port = 80
             } else {
                 this.port = 443
             }

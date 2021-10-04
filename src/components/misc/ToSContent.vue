@@ -10,7 +10,8 @@
         <h2 style="padding-left: 5pt; text-indent: 0pt; text-align: justify">AGREEMENT TO TERMS</h2>
         <p style="padding-top: 12pt; padding-left: 5pt; text-indent: 0pt; text-align: justify">
             These Terms of Use constitute a legally binding agreement made between you, whether
-            personally or on behalf of an entity (“you”) and Avalanche (BVI) Inc. (&quot;
+            personally or on behalf of an entity (“you”) and Dijets Inc. of 130 Old Street, London
+            (&quot;
             <b>Company</b>
             &quot;, “
             <b>we</b>
@@ -19,7 +20,7 @@
             ”, or “
             <b>our</b>
             ”), concerning your access to and use of the
-            <span class="s1">https://wallet.djtx.network/</span>
+            <span class="s1">https://wallet.dijets.io/</span>
             website and related features and services, including but not limited to the DJTX wallet
             functionality, as well as any other media form, media channel, mobile website or mobile
             application related, linked, or otherwise connected thereto, (collectively, the “Site”).
@@ -608,7 +609,7 @@
         <p style="padding-left: 5pt; text-indent: 0pt; text-align: justify">
             We care about data privacy and security. Please review our Privacy Policy:
             <a href="http://www.avalabs.org/privacy-policy" class="s7" target="_blank">
-                https://www.avalabs.org/privacy-policy
+                https://dijets.co.uk/privacy-policy
             </a>
             <a href="http://www.avalabs.org/privacy-policy" class="a" target="_blank">.</a>
             By using the Site, you agree to be bound by our Privacy Policy, which is incorporated
@@ -733,7 +734,7 @@
         <p style="padding-top: 12pt; padding-left: 5pt; text-indent: 0pt; text-align: justify">
             You may opt out of the binding arbitration described in this section by sending us
             written notice of your desire to do so by email at
-            <a href="mailto:support@djtx.network" class="a" target="_blank">support@djtx.network</a>
+            <a href="mailto:support@dijets.io" class="a" target="_blank">support@djtx.network</a>
             (such notice, an “Arbitration Opt-out Notice”) within thirty (30) days following the
             date you first agree to these Terms of Use, or within thirty (30) days of the date we
             modify this Dispute Resolution section as indicated in the “Last updated” date above or
@@ -954,16 +955,6 @@
             credits by any means other than electronic means.
         </p>
         <p style="text-indent: 0pt; text-align: left"><br /></p>
-        <h2 style="padding-left: 5pt; text-indent: 0pt; text-align: left">
-            CALIFORNIA USERS AND RESIDENTS
-        </h2>
-        <p style="padding-top: 12pt; padding-left: 5pt; text-indent: 0pt; text-align: justify">
-            If any complaint with us is not satisfactorily resolved, you can contact the Complaint
-            Assistance Unit of the Division of Consumer Services of the California Department of
-            Consumer Affairs in writing at 1625 North Market Blvd., Suite N 112, Sacramento,
-            California 95834 or by telephone at (800) 952-5210 or (916) 445-1254.
-        </p>
-        <p style="text-indent: 0pt; text-align: left"><br /></p>
         <h2 style="padding-left: 5pt; text-indent: 0pt; text-align: left">MISCELLANEOUS</h2>
         <p style="padding-top: 12pt; padding-left: 5pt; text-indent: 0pt; text-align: justify">
             These Terms of Use and any policies or operating rules posted by us on the Site or in
@@ -993,15 +984,15 @@
             regarding use of the Site, please contact us at:
         </p>
         <p style="text-indent: 0pt; text-align: left"><br /></p>
-        <p style="padding-left: 5pt; text-indent: 0pt; text-align: left">Avalanche (BVI) Inc.</p>
+        <p style="padding-left: 5pt; text-indent: 0pt; text-align: left">Dijets Inc.</p>
         <p style="padding-left: 5pt; text-indent: 0pt; text-align: left">
-            Floor 4, Banco Popular Building
+            130 Old Street
             <br />
-            Road Town, Tortola VG1110
+            London
             <br />
-            British Virgin Islands
+            EC1V 9BD
             <br />
-            <a href="mailto:support@djtx.network" target="_blank">support@djtx.network</a>
+            <a href="mailto:support@dijets.io" target="_blank">support@dijets.io</a>
         </p>
     </div>
 </template>

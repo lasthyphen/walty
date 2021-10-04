@@ -105,7 +105,6 @@ const network_module: Module<NetworkState, RootState> = {
 
             // Chose if the network should use credentials
             await net.updateCredentials()
-            ava.setRequestConfig('withCredentials', net.withCredentials)
             ava.setAddress(net.ip, net.port, net.protocol)
             ava.setNetworkID(net.networkId)
 
@@ -178,18 +177,18 @@ const network_module: Module<NetworkState, RootState> = {
 
         async init({ state, commit, dispatch }) {
             let mainnet = new AvaNetwork(
-                'Mainnet',
-                'https://api.djtx.network:443',
+                'Dijets-Net AsiaPacific',
+                'https://djt.northeurope.cloudapp.azure.com:443',
                 1,
-                'https://explorerapi.djtx.network',
+                'https://explorerdjt.northeurope.cloudapp.azure.com',
                 'https://explorer.djtx.network',
                 true
             )
 
-            let fuji = new AvaNetwork(
-                'Fuji',
-                'https://api.djtx-test.network:443',
-                5,
+            let local = new AvaNetwork(
+                'Dijets-Net NorthEU',
+                'https://djt.northeurope.cloudapp.azure.com:443',
+                12345,
                 'https://explorerapi.djtx-test.network',
                 'https://explorer.djtx-test.network',
                 true
@@ -203,7 +202,7 @@ const network_module: Module<NetworkState, RootState> = {
             }
 
             commit('addNetwork', mainnet)
-            commit('addNetwork', fuji)
+            commit('addNetwork', local)
 
             try {
                 let isSet = await dispatch('loadSelectedNetwork')

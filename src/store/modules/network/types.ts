@@ -7,7 +7,6 @@ export interface NetworkState {
     selectedNetwork: null | AvaNetwork
     // isConnected: boolean
     status: NetworkStatus
-
     txFee: BN
 }
 

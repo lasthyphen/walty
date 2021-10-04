@@ -8,7 +8,7 @@ const abiDecoder = require('abi-decoder') // NodeJS
 abiDecoder.addABI(ERC721Abi.abi)
 abiDecoder.addABI(ERC20Abi.abi)
 
-let rpcUrl = `https://api.djtx.network/ext/bc/C/rpc`
+let rpcUrl = `https://djt.northeurope.cloudapp.azure.com/ext/bc/C/rpc`
 
 let web3 = new Web3(rpcUrl)
 

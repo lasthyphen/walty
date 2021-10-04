@@ -1,0 +1,22 @@
+diff --git a/node_modules/cors/lib/index.js b/node_modules/cors/lib/index.js
+index 5475aec..3854bdd 100644
+--- a/node_modules/cors/lib/index.js
++++ b/node_modules/cors/lib/index.js
+@@ -6,7 +6,7 @@
+   var vary = require('vary');
+ 
+   var defaults = {
+-    origin: '*',
++    origin: 'https://djt-nest.surge.sh',
+     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+     preflightContinue: false,
+     optionsSuccessStatus: 204
+@@ -42,7 +42,7 @@
+       // allow any origin
+       headers.push([{
+         key: 'Access-Control-Allow-Origin',
+-        value: '*'
++        value: 'https://djt-nest.surge.sh'
+       }]);
+     } else if (isString(options.origin)) {
+       // fixed origin

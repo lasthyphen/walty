@@ -1,6 +1,6 @@
 <template>
     <p>
-        By using this application you agree Dijets
+        By using this application you agree with Dijets
         <router-link to="/legal">Terms of Use</router-link>
         .
     </p>

@@ -37,7 +37,7 @@ export default {
         let theme = localStorage.getItem('theme')
 
         if (!theme) {
-            this.setDay()
+            this.setNight()
             return
         }
 

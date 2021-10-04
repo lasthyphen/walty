@@ -27,7 +27,7 @@
         "custom": "Add Custom",
         "cancel": "Cancel",
         "add": "Add Network",
-        "not_mainnet": "This wallet runs on Dijets TestNetwork. All pre-existing accounts will be migrated to Main net upon going live",
+        "not_mainnet": "Data Migration of DJT token holding addresses to DJT on-chain accounts is now complete",
         "row": {
             "edit": "Edit",
             "delete": "Delete",

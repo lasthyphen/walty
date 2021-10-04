@@ -7,10 +7,10 @@ module.exports = {
          * For e2e testing we turn this off using vue cli --mode e2e
          * @link https://cli.vuejs.org/guide/mode-and-env.html#modes
          */
-        https: !process.env.USE_HTTP,
+        https: false,
         port: 5000,
     },
-    // publicPath: '',
+    // publicPath: 'https://wallet.dijets.io',
     configureWebpack: {
         optimization: {
             splitChunks: {
@@ -21,7 +21,7 @@ module.exports = {
         },
     },
     pwa: {
-        name: 'DJTX Wallet',
+        name: 'Dijets Wallet',
         manifestOptions: {
             start_url: '/',
         },

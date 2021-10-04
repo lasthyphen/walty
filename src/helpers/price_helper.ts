@@ -1,8 +1,7 @@
 const axios = require('axios')
 
-const COIN_ID = 'avalanche-2'
-const COINGECKO_URL =
-    'https://api.coingecko.com/api/v3/simple/price?ids=avalanche-2&vs_currencies=usd'
+const COIN_ID = 'loopring'
+const COINGECKO_URL = 'https://api.coingecko.com/api/v3/simple/price?ids=loopring&vs_currencies=usd'
 
 const coingeckoApi = axios.create({
     baseURL: 'https://api.coingecko.com/api/v3',
@@ -11,7 +10,7 @@ const coingeckoApi = axios.create({
 
 export async function getDjtxPriceUSD(): Promise<number> {
     let res = await axios.get(COINGECKO_URL)
-    return res.data['avalanche-2']['usd']
+    return res.data['loopring']['usd']
 }
 
 let priceHistory: [number, number][] = []

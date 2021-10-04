@@ -36,7 +36,7 @@ const app = new Vue({
         }
     },
     data: {
-        theme: 'day',
+        theme: 'night',
     },
 }).$mount('#app')
 
